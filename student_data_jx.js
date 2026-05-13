@@ -367,7 +367,7 @@ function buildCard(s) {
   const badgeClass = r === 'pass' ? 'badge-pass' : r === 'fail' ? 'badge-fail' : r === 'pending' ? 'badge-pending' : 'badge-nr';
   const certKey  = c === 'ready' ? 'ready' : c === 'processing' ? 'processing' : c === 'not issued' ? 'not-issued' : 'not-recv';
   const certIcon = c === 'ready' ? '&#127881;' : c === 'processing' ? '&#9203;' : c === 'not issued' ? '&#10060;' : '&#8987;';
-  const certMsg  = c === 'ready'      ? 'Certificate is ready — please visit admin office to collect' :
+  const certMsg  = c === 'ready'      ? 'Certificate is ready — Visit Iqbal Manpower Consultants to collect ,<br>  📞 0331-8749888' :
                    c === 'processing' ? 'Certificate is being prepared — check again in 2 to 3 days' :
                    c === 'not issued' ? 'Certificate not issued — re-attempt is required' :
                                         'Status not updated yet — please contact admin';
